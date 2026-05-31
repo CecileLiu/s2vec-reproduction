@@ -1,0 +1,32 @@
+# S2Vec Reimplementation — Dependencies
+
+# S2 Geometry
+s2sphere>=0.2.5
+
+# Geospatial data
+osmnx>=1.9.0
+overpy>=0.7
+shapely>=2.0
+geopandas>=0.14
+
+# Data processing
+numpy>=1.26
+pandas>=2.1
+pyarrow>=14.0          # parquet support
+tqdm>=4.66
+
+# Deep learning
+torch>=2.2
+torchvision>=0.17
+timm>=0.9              # ViT implementations
+
+# Config
+pyyaml>=6.0
+
+# Validation / downstream
+scikit-learn>=1.4
+
+# Visualization / notebooks
+matplotlib>=3.8
+seaborn>=0.13
+jupyter>=1.0
